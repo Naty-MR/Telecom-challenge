@@ -1,0 +1,6 @@
+framework module Pods_Telecom_challenge_Telecom_challengeUITests {
+  umbrella header "Pods-Telecom-challenge-Telecom-challengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

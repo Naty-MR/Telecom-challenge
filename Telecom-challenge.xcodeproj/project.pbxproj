@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3271E1BA6F3133F507D3F429 /* Pods_Telecom_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CEFBF2684C7304C728C2A6 /* Pods_Telecom_challenge.framework */; };
+		45D58CAD299A2DFF00753DEE /* MainPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D58CAC299A2DFF00753DEE /* MainPresenterTest.swift */; };
+		45D58CB2299A441800753DEE /* LocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D58CB1299A441800753DEE /* LocalDataManager.swift */; };
 		45F13F6D2995A77E00F49B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13F6C2995A77E00F49B9A /* AppDelegate.swift */; };
 		45F13F6F2995A77E00F49B9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13F6E2995A77E00F49B9A /* SceneDelegate.swift */; };
-		45F13F712995A77E00F49B9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13F702995A77E00F49B9A /* ViewController.swift */; };
+		45F13F712995A77E00F49B9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13F702995A77E00F49B9A /* MainViewController.swift */; };
 		45F13F742995A77E00F49B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F13F722995A77E00F49B9A /* Main.storyboard */; };
 		45F13F762995A78300F49B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F13F752995A78300F49B9A /* Assets.xcassets */; };
 		45F13F792995A78300F49B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F13F772995A78300F49B9A /* LaunchScreen.storyboard */; };
-		45F13F842995A78400F49B9A /* Telecom_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13F832995A78400F49B9A /* Telecom_challengeTests.swift */; };
-		45F13F8E2995A78400F49B9A /* Telecom_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13F8D2995A78400F49B9A /* Telecom_challengeUITests.swift */; };
-		45F13F902995A78400F49B9A /* Telecom_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13F8F2995A78400F49B9A /* Telecom_challengeUITestsLaunchTests.swift */; };
+		45F13F9E2995AC5F00F49B9A /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13F9D2995AC5F00F49B9A /* MainPresenter.swift */; };
+		45F13FA02995AC6D00F49B9A /* MainContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13F9F2995AC6D00F49B9A /* MainContract.swift */; };
+		45F13FA22995AD9200F49B9A /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F13FA12995AD9200F49B9A /* MainView.xib */; };
+		45F13FA52995B3E500F49B9A /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13FA42995B3E500F49B9A /* MainModel.swift */; };
+		45F13FA829969E7C00F49B9A /* BaseSerive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13FA729969E7C00F49B9A /* BaseSerive.swift */; };
+		45F13FAC2996B84000F49B9A /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13FAB2996B84000F49B9A /* WeatherService.swift */; };
+		45F13FAF2996C23400F49B9A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13FAE2996C23400F49B9A /* LocationManager.swift */; };
+		45F13FB22999D0E600F49B9A /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F13FB12999D0E600F49B9A /* WeatherCell.xib */; };
+		45F13FB42999D2C500F49B9A /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13FB32999D2C500F49B9A /* WeatherCell.swift */; };
+		45F13FB72999E20200F49B9A /* UIImage+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13FB62999E20200F49B9A /* UIImage+URL.swift */; };
+		45F13FB92999FBC100F49B9A /* AddWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F13FB82999FBC100F49B9A /* AddWeatherCell.swift */; };
+		45F13FBB2999FBCC00F49B9A /* AddWeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F13FBA2999FBCC00F49B9A /* AddWeatherCell.xib */; };
+		CF75A0C1839A7B23BB25DADD /* Pods_Telecom_challengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC73911EB4DED662008AE63 /* Pods_Telecom_challengeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +39,41 @@
 			remoteGlobalIDString = 45F13F682995A77E00F49B9A;
 			remoteInfo = "Telecom-challenge";
 		};
-		45F13F8A2995A78400F49B9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F13F612995A77E00F49B9A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 45F13F682995A77E00F49B9A;
-			remoteInfo = "Telecom-challenge";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150B314509D88D138E0A455C /* Pods-Telecom-challengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telecom-challengeTests.debug.xcconfig"; path = "Target Support Files/Pods-Telecom-challengeTests/Pods-Telecom-challengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37F8328A2249F4BA038ABBD3 /* Pods-Telecom-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telecom-challenge.debug.xcconfig"; path = "Target Support Files/Pods-Telecom-challenge/Pods-Telecom-challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		41BF9074DB632B4621D05130 /* Pods-Telecom-challengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telecom-challengeTests.release.xcconfig"; path = "Target Support Files/Pods-Telecom-challengeTests/Pods-Telecom-challengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		45D58CAC299A2DFF00753DEE /* MainPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTest.swift; sourceTree = "<group>"; };
+		45D58CB1299A441800753DEE /* LocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataManager.swift; sourceTree = "<group>"; };
 		45F13F692995A77E00F49B9A /* Telecom-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telecom-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F13F6C2995A77E00F49B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F13F6E2995A77E00F49B9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		45F13F702995A77E00F49B9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45F13F702995A77E00F49B9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		45F13F732995A77E00F49B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45F13F752995A78300F49B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F13F782995A78300F49B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F13F7A2995A78300F49B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F13F7F2995A78400F49B9A /* Telecom-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telecom-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45F13F832995A78400F49B9A /* Telecom_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telecom_challengeTests.swift; sourceTree = "<group>"; };
-		45F13F892995A78400F49B9A /* Telecom-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telecom-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45F13F8D2995A78400F49B9A /* Telecom_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telecom_challengeUITests.swift; sourceTree = "<group>"; };
-		45F13F8F2995A78400F49B9A /* Telecom_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telecom_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45F13F9D2995AC5F00F49B9A /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		45F13F9F2995AC6D00F49B9A /* MainContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContract.swift; sourceTree = "<group>"; };
+		45F13FA12995AD9200F49B9A /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		45F13FA42995B3E500F49B9A /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		45F13FA729969E7C00F49B9A /* BaseSerive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSerive.swift; sourceTree = "<group>"; };
+		45F13FAB2996B84000F49B9A /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		45F13FAE2996C23400F49B9A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		45F13FB12999D0E600F49B9A /* WeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+		45F13FB32999D2C500F49B9A /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		45F13FB62999E20200F49B9A /* UIImage+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+URL.swift"; sourceTree = "<group>"; };
+		45F13FB82999FBC100F49B9A /* AddWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherCell.swift; sourceTree = "<group>"; };
+		45F13FBA2999FBCC00F49B9A /* AddWeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddWeatherCell.xib; sourceTree = "<group>"; };
+		4CC73911EB4DED662008AE63 /* Pods_Telecom_challengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telecom_challengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CEFBF2684C7304C728C2A6 /* Pods_Telecom_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telecom_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF58C0A8C0FC647B017529F /* Pods-Telecom-challenge-Telecom-challengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telecom-challenge-Telecom-challengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Telecom-challenge-Telecom-challengeUITests/Pods-Telecom-challenge-Telecom-challengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		963865863281C8402DB8C979 /* Pods_Telecom_challenge_Telecom_challengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telecom_challenge_Telecom_challengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A91559486CAB7DB6181044 /* Pods-Telecom-challenge-Telecom-challengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telecom-challenge-Telecom-challengeUITests.release.xcconfig"; path = "Target Support Files/Pods-Telecom-challenge-Telecom-challengeUITests/Pods-Telecom-challenge-Telecom-challengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E77E46BEB765E9D5A4206E29 /* Pods-Telecom-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telecom-challenge.release.xcconfig"; path = "Target Support Files/Pods-Telecom-challenge/Pods-Telecom-challenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3271E1BA6F3133F507D3F429 /* Pods_Telecom_challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,26 +89,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F13F862995A78400F49B9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CF75A0C1839A7B23BB25DADD /* Pods_Telecom_challengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BE8583695D6F0E9122DCA79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37F8328A2249F4BA038ABBD3 /* Pods-Telecom-challenge.debug.xcconfig */,
+				E77E46BEB765E9D5A4206E29 /* Pods-Telecom-challenge.release.xcconfig */,
+				8DF58C0A8C0FC647B017529F /* Pods-Telecom-challenge-Telecom-challengeUITests.debug.xcconfig */,
+				A7A91559486CAB7DB6181044 /* Pods-Telecom-challenge-Telecom-challengeUITests.release.xcconfig */,
+				150B314509D88D138E0A455C /* Pods-Telecom-challengeTests.debug.xcconfig */,
+				41BF9074DB632B4621D05130 /* Pods-Telecom-challengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		45D58CAB299A2DD400753DEE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				45D58CAC299A2DFF00753DEE /* MainPresenterTest.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		45F13F602995A77E00F49B9A = {
 			isa = PBXGroup;
 			children = (
 				45F13F6B2995A77E00F49B9A /* Telecom-challenge */,
 				45F13F822995A78400F49B9A /* Telecom-challengeTests */,
-				45F13F8C2995A78400F49B9A /* Telecom-challengeUITests */,
 				45F13F6A2995A77E00F49B9A /* Products */,
+				3BE8583695D6F0E9122DCA79 /* Pods */,
+				B887C8522BA135A0A986A901 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +133,6 @@
 			children = (
 				45F13F692995A77E00F49B9A /* Telecom-challenge.app */,
 				45F13F7F2995A78400F49B9A /* Telecom-challengeTests.xctest */,
-				45F13F892995A78400F49B9A /* Telecom-challengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +140,14 @@
 		45F13F6B2995A77E00F49B9A /* Telecom-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				45F13FB52999E1E700F49B9A /* Extensions */,
+				45F13FB02996C79600F49B9A /* Cells */,
+				45F13FAD2996C22500F49B9A /* Utils */,
+				45F13FA629969C9400F49B9A /* Rest */,
+				45F13FA32995B3D000F49B9A /* Models */,
+				45F13F9C2995AC1A00F49B9A /* Main */,
 				45F13F6C2995A77E00F49B9A /* AppDelegate.swift */,
 				45F13F6E2995A77E00F49B9A /* SceneDelegate.swift */,
-				45F13F702995A77E00F49B9A /* ViewController.swift */,
 				45F13F722995A77E00F49B9A /* Main.storyboard */,
 				45F13F752995A78300F49B9A /* Assets.xcassets */,
 				45F13F772995A78300F49B9A /* LaunchScreen.storyboard */,
@@ -113,18 +159,75 @@
 		45F13F822995A78400F49B9A /* Telecom-challengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				45F13F832995A78400F49B9A /* Telecom_challengeTests.swift */,
+				45D58CAB299A2DD400753DEE /* Main */,
 			);
 			path = "Telecom-challengeTests";
 			sourceTree = "<group>";
 		};
-		45F13F8C2995A78400F49B9A /* Telecom-challengeUITests */ = {
+		45F13F9C2995AC1A00F49B9A /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				45F13F8D2995A78400F49B9A /* Telecom_challengeUITests.swift */,
-				45F13F8F2995A78400F49B9A /* Telecom_challengeUITestsLaunchTests.swift */,
+				45F13F702995A77E00F49B9A /* MainViewController.swift */,
+				45F13F9F2995AC6D00F49B9A /* MainContract.swift */,
+				45F13F9D2995AC5F00F49B9A /* MainPresenter.swift */,
+				45F13FA12995AD9200F49B9A /* MainView.xib */,
 			);
-			path = "Telecom-challengeUITests";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		45F13FA32995B3D000F49B9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45F13FA42995B3E500F49B9A /* MainModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45F13FA629969C9400F49B9A /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				45F13FA729969E7C00F49B9A /* BaseSerive.swift */,
+				45F13FAB2996B84000F49B9A /* WeatherService.swift */,
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
+		45F13FAD2996C22500F49B9A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				45F13FAE2996C23400F49B9A /* LocationManager.swift */,
+				45D58CB1299A441800753DEE /* LocalDataManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		45F13FB02996C79600F49B9A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				45F13FB12999D0E600F49B9A /* WeatherCell.xib */,
+				45F13FB32999D2C500F49B9A /* WeatherCell.swift */,
+				45F13FB82999FBC100F49B9A /* AddWeatherCell.swift */,
+				45F13FBA2999FBCC00F49B9A /* AddWeatherCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		45F13FB52999E1E700F49B9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45F13FB62999E20200F49B9A /* UIImage+URL.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B887C8522BA135A0A986A901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82CEFBF2684C7304C728C2A6 /* Pods_Telecom_challenge.framework */,
+				963865863281C8402DB8C979 /* Pods_Telecom_challenge_Telecom_challengeUITests.framework */,
+				4CC73911EB4DED662008AE63 /* Pods_Telecom_challengeTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45F13F932995A78400F49B9A /* Build configuration list for PBXNativeTarget "Telecom-challenge" */;
 			buildPhases = (
+				5B832DF7E1647B0337F51F82 /* [CP] Check Pods Manifest.lock */,
 				45F13F652995A77E00F49B9A /* Sources */,
 				45F13F662995A77E00F49B9A /* Frameworks */,
 				45F13F672995A77E00F49B9A /* Resources */,
@@ -151,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45F13F962995A78400F49B9A /* Build configuration list for PBXNativeTarget "Telecom-challengeTests" */;
 			buildPhases = (
+				7E14890E02B9B314C6CE26BE /* [CP] Check Pods Manifest.lock */,
 				45F13F7B2995A78400F49B9A /* Sources */,
 				45F13F7C2995A78400F49B9A /* Frameworks */,
 				45F13F7D2995A78400F49B9A /* Resources */,
+				0330B6E4EA3ACCF7DE6228E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,24 +270,6 @@
 			productName = "Telecom-challengeTests";
 			productReference = 45F13F7F2995A78400F49B9A /* Telecom-challengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		45F13F882995A78400F49B9A /* Telecom-challengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45F13F992995A78400F49B9A /* Build configuration list for PBXNativeTarget "Telecom-challengeUITests" */;
-			buildPhases = (
-				45F13F852995A78400F49B9A /* Sources */,
-				45F13F862995A78400F49B9A /* Frameworks */,
-				45F13F872995A78400F49B9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				45F13F8B2995A78400F49B9A /* PBXTargetDependency */,
-			);
-			name = "Telecom-challengeUITests";
-			productName = "Telecom-challengeUITests";
-			productReference = 45F13F892995A78400F49B9A /* Telecom-challengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -197,10 +285,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					45F13F7E2995A78400F49B9A = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 45F13F682995A77E00F49B9A;
-					};
-					45F13F882995A78400F49B9A = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 45F13F682995A77E00F49B9A;
 					};
@@ -221,7 +305,6 @@
 			targets = (
 				45F13F682995A77E00F49B9A /* Telecom-challenge */,
 				45F13F7E2995A78400F49B9A /* Telecom-challengeTests */,
-				45F13F882995A78400F49B9A /* Telecom-challengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,8 +315,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45F13F792995A78300F49B9A /* LaunchScreen.storyboard in Resources */,
+				45F13FA22995AD9200F49B9A /* MainView.xib in Resources */,
+				45F13FBB2999FBCC00F49B9A /* AddWeatherCell.xib in Resources */,
 				45F13F762995A78300F49B9A /* Assets.xcassets in Resources */,
 				45F13F742995A77E00F49B9A /* Main.storyboard in Resources */,
+				45F13FB22999D0E600F49B9A /* WeatherCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,23 +330,90 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F13F872995A78400F49B9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0330B6E4EA3ACCF7DE6228E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Telecom-challengeTests/Pods-Telecom-challengeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Telecom-challengeTests/Pods-Telecom-challengeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Telecom-challengeTests/Pods-Telecom-challengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		5B832DF7E1647B0337F51F82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telecom-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E14890E02B9B314C6CE26BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telecom-challengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		45F13F652995A77E00F49B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F13F712995A77E00F49B9A /* ViewController.swift in Sources */,
+				45F13FAC2996B84000F49B9A /* WeatherService.swift in Sources */,
+				45F13FA02995AC6D00F49B9A /* MainContract.swift in Sources */,
+				45F13FB42999D2C500F49B9A /* WeatherCell.swift in Sources */,
+				45F13F712995A77E00F49B9A /* MainViewController.swift in Sources */,
+				45F13FB92999FBC100F49B9A /* AddWeatherCell.swift in Sources */,
+				45D58CB2299A441800753DEE /* LocalDataManager.swift in Sources */,
+				45F13FA829969E7C00F49B9A /* BaseSerive.swift in Sources */,
 				45F13F6D2995A77E00F49B9A /* AppDelegate.swift in Sources */,
 				45F13F6F2995A77E00F49B9A /* SceneDelegate.swift in Sources */,
+				45F13FA52995B3E500F49B9A /* MainModel.swift in Sources */,
+				45F13F9E2995AC5F00F49B9A /* MainPresenter.swift in Sources */,
+				45F13FB72999E20200F49B9A /* UIImage+URL.swift in Sources */,
+				45F13FAF2996C23400F49B9A /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F13F842995A78400F49B9A /* Telecom_challengeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F13F852995A78400F49B9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45F13F902995A78400F49B9A /* Telecom_challengeUITestsLaunchTests.swift in Sources */,
-				45F13F8E2995A78400F49B9A /* Telecom_challengeUITests.swift in Sources */,
+				45D58CAD299A2DFF00753DEE /* MainPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +432,6 @@
 			isa = PBXTargetDependency;
 			target = 45F13F682995A77E00F49B9A /* Telecom-challenge */;
 			targetProxy = 45F13F802995A78400F49B9A /* PBXContainerItemProxy */;
-		};
-		45F13F8B2995A78400F49B9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45F13F682995A77E00F49B9A /* Telecom-challenge */;
-			targetProxy = 45F13F8A2995A78400F49B9A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,6 +571,7 @@
 		};
 		45F13F942995A78400F49B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F8328A2249F4BA038ABBD3 /* Pods-Telecom-challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +579,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Telecom-challenge/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = needit;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needed to fetch your location for weather information";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -459,6 +601,7 @@
 		};
 		45F13F952995A78400F49B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77E46BEB765E9D5A4206E29 /* Pods-Telecom-challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +609,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Telecom-challenge/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = needit;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needed to fetch your location for weather information";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -486,6 +631,7 @@
 		};
 		45F13F972995A78400F49B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150B314509D88D138E0A455C /* Pods-Telecom-challengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +651,7 @@
 		};
 		45F13F982995A78400F49B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BF9074DB632B4621D05130 /* Pods-Telecom-challengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,40 +666,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telecom-challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telecom-challenge";
-			};
-			name = Release;
-		};
-		45F13F9A2995A78400F49B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test.Telecom-challengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Telecom-challenge";
-			};
-			name = Debug;
-		};
-		45F13F9B2995A78400F49B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test.Telecom-challengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Telecom-challenge";
 			};
 			name = Release;
 		};
@@ -582,15 +695,6 @@
 			buildConfigurations = (
 				45F13F972995A78400F49B9A /* Debug */,
 				45F13F982995A78400F49B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		45F13F992995A78400F49B9A /* Build configuration list for PBXNativeTarget "Telecom-challengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45F13F9A2995A78400F49B9A /* Debug */,
-				45F13F9B2995A78400F49B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
